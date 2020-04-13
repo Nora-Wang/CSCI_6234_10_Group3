@@ -16,13 +16,13 @@
 {% block header_con %}
     <div class="header_con">
         <div class="header">
-            <div class="welcome fl">Wlcome to MyMovieSite!</div>
+            <div class="welcome fl">Welcome to MyMovieSite!</div>
             <div class="fr">
         {% if user.is_authenticated %}
                     <div class="login_btn fl">
                         Welcome：<em>{{ user.username }}</em>
             <span>|</span>
-                    <a href="{% url 'logout' %}">Logout</a>
+                    <a href="{% url 'user:login' %}">Logout</a>
                 </div>
         {% else %}
                 <div class="login_btn fl">
