@@ -1,6 +1,7 @@
 # CSCI_6234_10_Group3
 
 We are Group 3, the team members are Che Li, Chang Li, Yakun Zhang, and Yuting Wang.
+
 All results, includs all assignments Google Slide and final project for this course.
 
 ### Google Slide
@@ -12,7 +13,9 @@ Works and presentation slides for corresponding assignments for A1 ~ A5.
 This is the final project of course CSCI_6234_10
 
 Programming language: Python
+
 Framwork: Django 2.2
+
 Database: MySQL
 
 ### Project Setup
