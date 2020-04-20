@@ -18,13 +18,14 @@ Database: MySQL
 ### Project Setup
 
 to reset your database in setting file, you can change the database path into the following code:
-'DATABASES = {'
+```Python
+DATABASES = {'
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-'
+```
 ## Demo Video
 
 5 min video for demo the final project
