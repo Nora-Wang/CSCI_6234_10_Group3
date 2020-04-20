@@ -20,7 +20,7 @@ Database: MySQL
 
 ### Project Setup
 
-to reset your database in setting file, you can change the database path into the following code:
+to reset your database in setting file, you can change the Django database path into the following code, so that you do not need to use MySQL:
 ```Python
 DATABASES = {'
     'default': {
